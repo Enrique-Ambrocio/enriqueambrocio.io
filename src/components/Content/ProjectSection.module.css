@@ -1,0 +1,37 @@
+.project-hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+
+.project-hero_title {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white
+}
+
+.project-hero_content {
+    background-color: rgb(255, 91, 91);
+    width: 95%;
+    max-width: 55em;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.project-hero_content ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: .2rem;
+    flex-wrap: wrap;
+}
+
+.project-hero_content li {
+    color: white;
+    font-weight: 500;
+}

@@ -1,0 +1,36 @@
+.about-me_hero {
+    min-height: 90vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about-me_hero_title {
+    font-size: x-large;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.about-me_hero_content {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 55em;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.about-me_hero_content p {
+    width: 45%;
+}
+
+.about-me_hero img {
+    border-radius: 50%;
+    width: 25%;
+    display: block;
+}

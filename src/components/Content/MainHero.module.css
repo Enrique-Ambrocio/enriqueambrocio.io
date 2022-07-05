@@ -1,0 +1,46 @@
+.main-hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-hero_content {
+    width: 50%;
+    max-width: 35rem;
+}
+
+.main-hero_button {
+    max-width: 35rem;
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.main-hero_button button {
+    padding: .75rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.main-hero_content h2 {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.main-hero_content h2:nth-child(odd) {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.main-hero_content h2:nth-child(even) {
+    color: whitesmoke;
+}
+
+.main-hero_content span {
+    color: blueviolet;
+}
