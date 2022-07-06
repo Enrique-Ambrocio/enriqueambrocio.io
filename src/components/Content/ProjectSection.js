@@ -22,8 +22,32 @@ function ProjectSection() {
                             </li>
                         </ul>
                     </li>
-                    <li>Productivity App</li>
-                    <li>Python</li>
+                    <li>
+                        <ul className={styles['project-hero_content_project']}>
+                            <li>
+                                <h3>Productivity App</h3>
+                            </li>
+                            <li>
+                                <p>Hello there!</p>
+                            </li>
+                            <li>
+                                <button>Link</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul className={styles['project-hero_content_project']}>
+                            <li>
+                                <h3>Data Science Project</h3>
+                            </li>
+                            <li>
+                                <p>Hello there!</p>
+                            </li>
+                            <li>
+                                <button>Link</button>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>

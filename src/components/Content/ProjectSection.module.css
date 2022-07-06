@@ -15,7 +15,6 @@
 }
 
 .project-hero_content {
-    background-color: rgb(255, 91, 91);
     width: 95%;
     max-width: 55em;
     flex-wrap: wrap;
@@ -27,11 +26,33 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    padding: .2rem;
+    padding: .5rem;
     flex-wrap: wrap;
 }
 
 .project-hero_content li {
     color: white;
     font-weight: 500;
+}
+
+.project-hero_content_project {
+    border: 1px solid black;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 1.5rem;
+    height: 15rem;
+    width: 13rem;
+    background-color: rgb(57, 57, 57);
+}
+
+.project-hero_content_project button {
+    padding: .75rem;
+    border-radius: 1.5em;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
 }

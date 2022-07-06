@@ -1,0 +1,40 @@
+.skills-hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+
+.skills_hero_title {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white
+}
+
+.skills-hero_content {
+    background-color: rgb(57, 57, 57);
+    width: 95%;
+    max-width: 55em;
+    margin: auto;
+    border-radius: 1.5em;
+}
+
+.skills-hero_content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: .5rem;
+    flex-wrap: wrap;
+}
+
+.skills-hero_content li {
+    color: white;
+    font-weight: 500;
+    margin: 1rem;
+    width: 5rem;
+    text-align: center;
+}
