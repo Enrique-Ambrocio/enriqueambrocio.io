@@ -1,0 +1,74 @@
+.books-hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+
+.books-hero_title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.books-hero_content {
+    width: 95%;
+    max-width: 55em;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.books-hero_content ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: .5rem;
+    flex-wrap: wrap;
+}
+
+.books-hero_content li {
+    color: white;
+    font-weight: 500;
+}
+
+.books-hero_content_book {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 1.5rem;
+    height: 25rem;
+    width: 13rem;
+    /* background-color: rgb(57, 57, 57); */
+}
+
+.books-hero_content_book img {
+    height: 15rem;
+    width: 11rem;
+}
+
+.books-hero_content_book span {
+    font-weight: 200;
+}
+
+.books-hero_content_book a {
+    padding: .75rem;
+    border-radius: 1.5em;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.books-hero_content_book a:hover {
+    background-color: rgb(159, 99, 215);
+}

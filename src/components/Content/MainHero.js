@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '/Users/enriqueambrocio/Desktop/EnriqueAmbrocio/enrique-ambrocio/src/components/Content/MainHero.module.css'
-// import profileImage from '/Users/enriqueambrocio/Desktop/EnriqueAmbrocio/enrique-ambrocio/src/IMG_0194.jpg'
 
 function MainHero() {
     return (

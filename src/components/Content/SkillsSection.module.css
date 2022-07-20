@@ -1,5 +1,5 @@
 .skills-hero {
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -11,7 +11,8 @@
 .skills_hero_title {
     font-size: x-large;
     font-weight: bolder;
-    color: white
+    color: white;
+    text-align: center;
 }
 
 .skills-hero_content {
@@ -37,4 +38,11 @@
     margin: 1rem;
     width: 5rem;
     text-align: center;
+}
+
+.skills_hero_title p {
+    font-weight: 400;
+    font-size: medium;
+    width: 20rem;
+    /* margin-bottom: 1.5rem; */
 }

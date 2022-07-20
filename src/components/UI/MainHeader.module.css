@@ -1,9 +1,12 @@
 .header {
-    padding-top: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
 }
 
 .header-nav {
@@ -11,21 +14,71 @@
     width: 45%;
 }
 
-.header-logo h1 {
-    color: white;
+.header-nav_mobile {
+    background-color: aquamarine;
+    display: none;
+
 }
 
-.header-nav ul {
+
+.header-nav .header-nav_desktop ul {
     padding: .1rem;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
-.header-nav li {
+.header-nav .header-nav_desktop a {
     margin-left: .5rem;
     margin-right: .5rem;
     font-weight: bolder;
     color: white;
+    text-decoration: none;
+}
+
+.header-nav .header-nav_desktop a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:35rem) {
+    .header-nav_desktop {
+        display: none;
+    }
+
+    .header {
+        flex-direction: column;
+        padding-bottom: 1.5rem;
+    }
+
+    .header-nav_mobile {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 2rem;
+        width: 3rem;
+        margin: auto;
+    }
+
+    .header-nav_mobile ul {
+        list-style: none;
+        display: flex;
+        background-color: darkgray;
+        justify-content: center;
+        align-items: center;
+        padding: .1rem;
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+    }
+
+    .header-nav_mobile li {
+        margin: .75rem;
+        text-decoration: underline white;
+        color: white;
+        font-weight: bolder;
+    }
+
 }

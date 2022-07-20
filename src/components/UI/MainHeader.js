@@ -1,4 +1,6 @@
 import React from 'react'
+import DesktopNavigation from './DesktopNavigation'
+import MobileNavigation from './MobileNavigation'
 import styles from '/Users/enriqueambrocio/Desktop/EnriqueAmbrocio/enrique-ambrocio/src/components/UI/MainHeader.module.css'
 
 function MainHeader() {
@@ -8,13 +10,8 @@ function MainHeader() {
                 <h1>EA</h1>
             </div>
             <nav className={styles['header-nav']}>
-                <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Fav Books</li>
-                    <li>Contact</li>
-                </ul>
+                <DesktopNavigation />
+                <MobileNavigation />
             </nav>
         </header>
     )

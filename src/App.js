@@ -1,5 +1,6 @@
 import { Fragment } from "react";
-import AboutSection from "./components/Content/AboutSection";
+import FavoriteReadsSection from "./components/Content/FavoriteReadsSection";
+import FormSection from "./components/Content/FormSection";
 import MainHero from "./components/Content/MainHero";
 import ProjectSection from "./components/Content/ProjectSection";
 import SkillsSection from "./components/Content/SkillsSection";
@@ -14,12 +15,13 @@ function App() {
       <main>
         <MainHero />
         <hr className={styles['hr']} />
-        <AboutSection />
-        <hr className={styles['hr']} />
         <ProjectSection />
         <hr className={styles['hr']} />
         <SkillsSection />
         <hr className={styles['hr']} />
+        <FavoriteReadsSection />
+        <hr className={styles['hr']} />
+        <FormSection />
       </main>
     </Fragment>
   );
