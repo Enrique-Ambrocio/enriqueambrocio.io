@@ -12,7 +12,7 @@ function ProjectSection() {
                 <h2>Projects I've Built</h2>
             </div>
             <div className={styles['project-hero_content']}>
-                <ul>
+                <ul className={styles['project-hero_content_container']}>
                     <li>
                         <ul className={styles['project-hero_content_project']}>
                             <li className={styles['project-hero_content_project_description']}>

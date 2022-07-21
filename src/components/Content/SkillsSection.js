@@ -14,7 +14,9 @@ function SkillsSection() {
         <section className={styles['skills-hero']} id='skills'>
             <div className={styles['skills_hero_title']}>
                 <h2>Skills</h2>
-                <p>Technologies I'm currently working with:</p>
+                <div className={styles['skills_hero_title_description']}>
+                    <p>Technologies I'm currently working with:</p>
+                </div>
             </div>
             <div className={styles['skills-hero_content']}>
                 <ul>
