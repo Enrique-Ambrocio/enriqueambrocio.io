@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.19c07fbc.css",
-    "main.js": "/static/js/main.0a442c22.js",
+    "main.css": "/static/css/main.f847f89c.css",
+    "main.js": "/static/js/main.7f584647.js",
     "static/media/theStartupJCurve.jpg": "/static/media/theStartupJCurve.9547f6b02a2e9bc72316.jpg",
     "static/media/blueOcean.jpg": "/static/media/blueOcean.064e510d42342a0d286a.jpg",
     "static/media/zerotoone.jpg": "/static/media/zerotoone.ec5b2eaa62c0b7002c0a.jpg",
+    "static/media/BreadHunter2.png": "/static/media/BreadHunter2.2581992f60a6106c01fe.png",
     "static/media/ProductivityApp.png": "/static/media/ProductivityApp.8746c1f097f42f43c05c.png",
     "static/media/shoeDog.jpg": "/static/media/shoeDog.da04a216104a9f3c2122.jpg",
     "static/media/cleancode.jpg": "/static/media/cleancode.b26ffdc03104383c2f91.jpg",
     "static/media/selftaughtcomputerscientist.jpg": "/static/media/selftaughtcomputerscientist.2e56716a66da866ffc9f.jpg",
     "index.html": "/index.html",
-    "main.19c07fbc.css.map": "/static/css/main.19c07fbc.css.map",
-    "main.0a442c22.js.map": "/static/js/main.0a442c22.js.map"
+    "main.f847f89c.css.map": "/static/css/main.f847f89c.css.map",
+    "main.7f584647.js.map": "/static/js/main.7f584647.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c07fbc.css",
-    "static/js/main.0a442c22.js"
+    "static/css/main.f847f89c.css",
+    "static/js/main.7f584647.js"
   ]
 }
